@@ -1,0 +1,54 @@
+[
+    {
+        "id": "84a30b0abd9daafa",
+        "type": "ui_gauge",
+        "z": "tab_weather",
+        "name": "",
+        "group": "ui_group_weather",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "sila",
+        "label": "N",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 830,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ui_group_weather",
+        "type": "ui_group",
+        "name": "Weather Station",
+        "tab": "ui_tab_weather",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "ui_tab_weather",
+        "type": "ui_tab",
+        "name": "Weather Dashboard",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "95f875b9509042a0",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
